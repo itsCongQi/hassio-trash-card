@@ -13,6 +13,7 @@ import * as ptBr from './translations/pt-br.json';
 import * as sk from './translations/sk.json';
 import * as sl from './translations/sl.json';
 import * as sv from './translations/sv.json';
+import * as zhCN from './translations/zhCN.json';
 
 import type { HomeAssistant, LocalizeFunc } from './utils/ha';
 

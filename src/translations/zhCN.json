@@ -1,0 +1,139 @@
+{
+    "editor": {
+        "form": {
+            "color_picker": {
+                "values": {
+                    "default": "默认颜色"
+                }
+            },
+            "day_style": {
+                "title": "事件时间显示为",
+                "values": {
+                    "default": "日期",
+                    "counter": "距离天数",
+                    "weekday": "星期",
+                    "custom": "自定义日期格式"
+                }
+            },
+            "day_style_format": {
+                "title": "自定义日期格式",
+                "helper": "Define your own date format. (dd = day with leading 0, d = day, MM = month with leading 0, M = month, yy = year short, yyyy = year long) E.g. dd.MM.yyyy = 03.04.2024, where d.M.yy = 3.4.24 would result."
+            },
+            "card_style": {
+                "title": "Display as",
+                "values": {
+                    "card": "Standard card",
+                    "chip": "Chip card",
+                    "icon": "Icon"
+                }
+            },
+            "alignment_style": {
+                "title": "对齐",
+                "values": {
+                    "left": "left",
+                    "center": "centered",
+                    "right": "right",
+                    "space": "spaced"
+                }
+            },
+            "color_mode": {
+                "title": "Apply color to",
+                "values": {
+                    "background": "Background",
+                    "icon": "Icon"
+                }
+            },
+            "layout_picker": {
+                "values": {
+                    "default": "Default layout",
+                    "vertical": "Vertical layout",
+                    "horizontal": "Horizontal layout"
+                }
+            },
+            "tabs": {
+                "settings": "Settings",
+                "appearance": "Appearance",
+                "patterns": "Patterns"
+            },
+            "refresh_rate": {
+                "title": "Update interval",
+                "helper": "Check for changes in the calendar every x minutes"
+            },
+            "location": {
+                "title": "Location",
+                "helper": "Filter events by given location, if none is given all are used."
+            },
+            "only_all_day_events": {
+                "title": "Only all-day events",
+                "helper": "If you only want to use all-day entries, please activate this option, otherwise all entries will be used."
+            }
+        },
+        "card": {
+            "generic": {
+                "icon_color": "Icon color",
+                "layout": "Layout",
+                "fill_container": "Fill container",
+                "next_days": "Days in the future",
+                "filter_events": "Filter events by patterns",
+                "drop_todayevents_from": "From what time to hide all-day event",
+                "full_size": "Card without margin",
+                "use_summary": "Event summary instead of label",
+                "hide_time_range": "Hide time",
+                "event_grouping": "Only display the next event per pattern",
+                "icon_size": "Icon size",
+                "with_label": "Show label"
+            },
+            "trash": {
+                "pattern": {
+                    "title": "Edit pattern",
+                    "edit": "edit",
+                    "delete": "delete",
+                    "create": "Create new pattern",
+                    "new_custom_label": "New pattern",
+                    "type": {
+                        "organic": "Organic",
+                        "paper": "Paper",
+                        "recycle": "Recycle",
+                        "waste": "Waste",
+                        "others": "Others"
+                    },
+                    "fields": {
+                        "label": "Label",
+                        "color": "Color",
+                        "icon": "Icon",
+                        "pattern": "Detection pattern",
+                        "pattern_exact": "Use exact pattern",
+                        "pattern_exact_description": "Use pattern as search term, which must be 100% identical to the description of the calendar event. Search term is case-insensitive.",
+                        "picture_url": "Picture URL",
+                        "picture_url_description": "If a picture URL is specified, the corresponding picture is displayed instead of the icon. Place an image in the `/config/www` folder and use `/local/[filename]`."
+                    }
+                }
+            }
+        }
+    },
+    "card": {
+        "not_found": {
+            "title": "No entites defined",
+            "description": "Please select at least one calendar entity to get TrashCard to work."
+        },
+        "empty": {
+            "description": "Currently no events found. This message is only available during editing."
+        },
+        "trash": {
+            "today": "今天",
+            "tomorrow": "明天",
+            "day": "<DAY>",
+            "today_from_till": "今天\nfrom <START> to <END>",
+            "tomorrow_from_till": "明天\nbetween <START> and <END>",
+            "day_from_till": "<DAY>\nbetween <START> and <END>",
+            "daysleft": "<DAYS> 天后",
+            "daysleft_more": "<DAYS> 天后",
+            "daysleft_from_till": "in <DAYS> day\nbetween <START> and <END>",
+            "daysleft_more_from_till": "in <DAYS> days\nbetween <START> and <END>",
+            "daysleftend": "ends in <DAYS> day",
+            "daysleftend_more": "ends in <DAYS> days",
+            "daysleftend_till": "ends in <DAYS> day\nat <END>",
+            "daysleftend_more_till": "ends in <DAYS> days\nat <END>"
+        }
+    }
+}
