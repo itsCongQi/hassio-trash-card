@@ -10,10 +10,10 @@ import * as nb from './translations/nb.json';
 import * as nl from './translations/nl.json';
 import * as pl from './translations/pl.json';
 import * as ptBr from './translations/pt-br.json';
+import * as zhHans from './translations/zh-hans.json';
 import * as sk from './translations/sk.json';
 import * as sl from './translations/sl.json';
 import * as sv from './translations/sv.json';
-import * as zhCN from './translations/zhCN.json';
 
 import type { HomeAssistant, LocalizeFunc } from './utils/ha';
 
@@ -31,6 +31,7 @@ const languages: Record<string, unknown> = {
   pl,
   // eslint-disable-next-line @typescript-eslint/naming-convention
   'pt-BR': ptBr,
+  'zh-Hans': zhHans,
   sk,
   sl,
   sv

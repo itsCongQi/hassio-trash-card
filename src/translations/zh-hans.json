@@ -7,20 +7,20 @@
                 }
             },
             "day_style": {
-                "title": "事件时间显示为",
+                "title": "显示事件时间为",
                 "values": {
                     "default": "日期",
-                    "counter": "距离天数",
-                    "weekday": "星期",
+                    "counter": "距离日子",
+                    "weekday": "一星期中的日子",
                     "custom": "自定义日期格式"
                 }
             },
             "day_style_format": {
-                "title": "自定义日期格式",
+                "title": "Custom date format",
                 "helper": "Define your own date format. (dd = day with leading 0, d = day, MM = month with leading 0, M = month, yy = year short, yyyy = year long) E.g. dd.MM.yyyy = 03.04.2024, where d.M.yy = 3.4.24 would result."
             },
             "card_style": {
-                "title": "Display as",
+                "title": "显示为",
                 "values": {
                     "card": "Standard card",
                     "chip": "Chip card",
@@ -28,7 +28,7 @@
                 }
             },
             "alignment_style": {
-                "title": "对齐",
+                "title": "Alignment",
                 "values": {
                     "left": "left",
                     "center": "centered",
@@ -123,15 +123,15 @@
             "today": "今天",
             "tomorrow": "明天",
             "day": "<DAY>",
-            "today_from_till": "今天\nfrom <START> to <END>",
-            "tomorrow_from_till": "明天\nbetween <START> and <END>",
-            "day_from_till": "<DAY>\nbetween <START> and <END>",
+            "today_from_till": "今天\n从 <START> 到 <END>",
+            "tomorrow_from_till": "明天\n从 <START> 到 <END>",
+            "day_from_till": "<DAY>\n从 <START> 到 <END>",
             "daysleft": "<DAYS> 天后",
             "daysleft_more": "<DAYS> 天后",
-            "daysleft_from_till": "in <DAYS> day\nbetween <START> and <END>",
-            "daysleft_more_from_till": "in <DAYS> days\nbetween <START> and <END>",
-            "daysleftend": "ends in <DAYS> day",
-            "daysleftend_more": "ends in <DAYS> days",
+            "daysleft_from_till": "<DAYS> 天后\n从 <START> 到 <END>",
+            "daysleft_more_from_till": "<DAYS> 天后\n从 <START> 到 <END>",
+            "daysleftend": "<DAYS> 天后结束",
+            "daysleftend_more": "<DAYS> 天后结束",
             "daysleftend_till": "ends in <DAYS> day\nat <END>",
             "daysleftend_more_till": "ends in <DAYS> days\nat <END>"
         }
